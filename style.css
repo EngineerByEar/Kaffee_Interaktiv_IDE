@@ -39,7 +39,12 @@ body{
     border: solid #5F330D 1px;
     border-radius: 3px;
     height: 5vh;
+    width: 5vh;
     font-size: medium;
+}
+.close_btn:hover{
+    background-color: #5F330D;
+    color: #EEC590;
 }
 
 .Popup{
@@ -51,6 +56,7 @@ body{
     border-radius: 3px;
     border: solid #5F330D 1px;
     background-color: white;
+    max-height: 90vh;
 
 }
 

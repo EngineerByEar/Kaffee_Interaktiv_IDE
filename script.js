@@ -18,7 +18,7 @@ window.addEventListener("load", ()=>{
         const popup_close_btn = document.createElement("button");
         popup_close_btn.className = "close_btn";
         popup_close_btn.id = `${popup.id}_close_btn`;
-        popup_close_btn.innerText = "PopUp schließen";
+        popup_close_btn.innerHTML = "&#10005;";
         //event listener to close the popup on click
         popup_close_btn.addEventListener("click", ()=>{
             popup_close_btn.parentElement.style.display = "none";
