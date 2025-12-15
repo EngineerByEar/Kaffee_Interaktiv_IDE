@@ -42,6 +42,7 @@ body{
     width: 5vh;
     font-size: medium;
 }
+
 .close_btn:hover{
     background-color: #5F330D;
     color: #EEC590;
