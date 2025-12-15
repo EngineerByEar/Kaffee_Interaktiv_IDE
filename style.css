@@ -64,3 +64,15 @@ body{
 .blurred{
     filter: blur(5px);
 }
+
+.quellen_button{
+    position: absolute;
+    bottom: 6vh;
+    right: 1vw;
+    height: 3vh;
+}
+
+.quellen_button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

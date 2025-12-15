@@ -1,15 +1,20 @@
 const btn_plantation = document.getElementById("Button_Kaffeebohne");
 const btn_harvest = document.getElementById("Button_Zeit_Ernte");
-const btn_bean_price = document.getElementById("Button_Preisentwicklung ");
+const btn_bean_price = document.getElementById("Button_Preisentwicklung");
 const btn_preprocessing_quality = document.getElementById("Button_Zeit_Qualität");
 const btn_preprocessing_time = document.getElementById("Button_Zeit_Aufbreitung");
 const btn_roast = document.getElementById("Button_Kaffeeröstung");
 const btn_roast_time = document.getElementById("Button_Zeit_Röstung");
-const btn_market = document.getElementById("Button_Marktanteile ");
+const btn_market = document.getElementById("Button_Marktanteile");
+
+const btn_quellen = document.getElementById("quellen_button");
+
 const background = document.getElementById("infographic");
 
+
+
 //load buttons and popups from index.html
-const btns = [btn_plantation, btn_harvest, btn_bean_price, btn_preprocessing_quality, btn_preprocessing_time, btn_roast, btn_roast_time, btn_market]
+const btns = [btn_plantation, btn_harvest, btn_bean_price, btn_preprocessing_quality, btn_preprocessing_time, btn_roast, btn_roast_time, btn_market, btn_quellen]
 const popups = document.querySelectorAll(".Popup");
 
 window.addEventListener("load", ()=>{
@@ -83,3 +88,7 @@ btn_market.addEventListener("click", function(){
     open_popup("market");
 })
 
+btn_quellen.addEventListener("click", ()=>{
+    console.log("quellen");
+    open_popup("quellen");
+})
