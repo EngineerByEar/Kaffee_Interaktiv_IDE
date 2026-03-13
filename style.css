@@ -17,6 +17,10 @@ body{
     opacity: 0.8;
 }
 
+#Buttons{
+    opacity: 1;
+}
+
 @keyframes wiggle {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(0.25deg); }
